@@ -1,0 +1,1 @@
+import{_ as t}from"./app-de9f6fbd.js";const o=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-de9f6fbd.js").then(r=>r.ak),[]);return e({serverURL:"https://talk.mo7.cc"})}catch{console.error("@waline/client is not installed!");return}};export{o as updatePageview};
